@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.download.timer{
+    color: black;
+    background: none;
+    pointer-events: none;
+    font-size: 20px;
+}
+.download.timer b{
+    color: blue;
+}
+.download:hover{
+    background-color: rgba(0, 0, 255, 0.727);
+}
+span,.icon{
+    font-size: 25px;
+}
